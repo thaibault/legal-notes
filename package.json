@@ -1,0 +1,22 @@
+{
+    "dependencies": {"jade": "*"},
+    "description": "Legal notes for my documentation-, home- and websites.",
+    "files": ["index.jade"],
+    "homepage": "http://torben.website/legalNotes",
+    "keywords": [
+        "legal", "notes", "about", "website", "homepage", "impressum"
+    ],
+    "license": "ISC",
+    "main": "index.html",
+    "name": "legalNotes",
+    "repository": {
+        "type": "git", "url": "https://github.com/thaibault/legalNotes.git"
+    },
+    "scripts": {
+        "build": "jade index.jade index.html",
+        "clear": "rm *.html || true",
+        "preinstall": "touch index.html",
+        "postinstall": "npm run build"
+    },
+    "version": "1.0.0"
+}
