@@ -13,7 +13,8 @@
         "type": "git", "url": "https://github.com/thaibault/legalNotes.git"
     },
     "scripts": {
-        "build": "jade --pretty index.jade",
+        "build": "jade index.jade",
+        "buildPretty": "jade --pretty index.jade",
         "clear": "rm *.html || true",
         "preinstall": "touch index.html",
         "postinstall": "npm run build"
