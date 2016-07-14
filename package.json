@@ -16,7 +16,7 @@
         "type": "git", "url": "https://github.com/thaibault/legalNotes.git"
     },
     "scripts": {
-        "build": "pug index.pug && html-minifier --config-file htmlMinifierConfig.json --output-file index.html index.html",
+        "build": "pug --no-debug --extension pug.html index.pug && html-minifier --config-file htmlMinifierConfig.json --output index.html index.pug.html",
         "buildPretty": "pug --pretty index.pug",
         "clear": "rm *.html || true",
         "preinstall": "touch index.html",
