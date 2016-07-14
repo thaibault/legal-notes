@@ -1,7 +1,10 @@
 {
-    "dependencies": {"jade": "*"},
+    "dependencies": {
+        "html-minifier": ">=3.0.1",
+        "pug-cli": ">=1.0.0-alpha6"
+    },
     "description": "Legal notes for my documentation-, home- and websites.",
-    "files": ["index.jade"],
+    "files": ["index.pug"],
     "homepage": "http://torben.website/legalNotes",
     "keywords": [
         "legal", "notes", "about", "website", "homepage", "impressum"
@@ -13,11 +16,12 @@
         "type": "git", "url": "https://github.com/thaibault/legalNotes.git"
     },
     "scripts": {
-        "build": "jade index.jade",
-        "buildPretty": "jade --pretty index.jade",
+        "build": "pug index.pug && html-minifier --case-sensitive --collapse-boolean-attributes --html5 --ignore-custom-comments '^\\|?[a-z]{2}[A-Z]{2}:' --ignore-custom-fragments <%[\\s\\S]*?%>,<\\?[\\s\\S]*?\\?>,<link[^>]*>,<img[^>]*> --keep-closing-slash --max-line-length 9999999999999999999999999999999 --minify-js --preserve-line-breaks --prevent-attributes-escaping --quote-character '\"' --remove-comments --remove-script-type-attributes --remove-style-link-type-attributes --sort-attributes --sort-class-name --output-file index.html index.html",
+        "buildPretty": "pug --pretty index.pug",
         "clear": "rm *.html || true",
         "preinstall": "touch index.html",
-        "postinstall": "npm run build"
+        "postinstall": "npm run build",
+        "watch": "pug --watch index.pug"
     },
     "version": "1.0.0"
 }
