@@ -16,7 +16,7 @@
     "homepage",
     "impressum"
   ],
-  "license": "ISC",
+  "license": "CC-BY-3.0",
   "main": "index.html",
   "name": "legal-notes",
   "repository": {
