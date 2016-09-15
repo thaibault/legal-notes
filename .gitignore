@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # Generated files
-index.html
+*.html
 
 # Generated documentations
 documentation/build
