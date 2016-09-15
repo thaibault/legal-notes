@@ -1,5 +1,5 @@
 {
-  "dependencies": {
+  "devDependencies": {
     "html-minifier": "latest",
     "pug-cli": "latest"
   },
