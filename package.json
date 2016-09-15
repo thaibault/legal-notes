@@ -5,7 +5,7 @@
   },
   "description": "Legal notes for my documentation-, home- and websites.",
   "files": [
-    "index.pug"
+    "index.html"
   ],
   "homepage": "http://torben.website/legalNotes",
   "keywords": [
