@@ -3,7 +3,7 @@
     "html-minifier": "latest",
     "pug-cli": "latest"
   },
-  "description": "Legal notes for my documentation-, home- and websites.",
+  "description": "Legal notes for documentation-, home- and websites.",
   "files": [
     "index.html"
   ],
