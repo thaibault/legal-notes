@@ -11,12 +11,12 @@
 # endregion
 pkgname=legal-notes
 pkgver=1.0.2
-pkgrel=4
+pkgrel=5
 pkgdesc='Legal notes for documentation-, home- and websites.'
 arch=('any')
 license=('CC-BY-3.0')
 depends=()
-source=('https://raw.githubusercontent.com/thaibault/legalNotes/master/index.pug')
+source=('index.pug')
 md5sums=('SKIP')
 
 package() {
