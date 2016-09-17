@@ -10,18 +10,14 @@
 # 3.0 unported license. see http://creativecommons.org/licenses/by/3.0/deed.de
 # endregion
 pkgname=legal-notes
-pkgver=VERSION
-pkgrel=3
+pkgver=1.0.2
+pkgrel=4
 pkgdesc='Legal notes for documentation-, home- and websites.'
 arch=('any')
 license=('CC-BY-3.0')
 depends=()
 source=('https://raw.githubusercontent.com/thaibault/legalNotes/master/index.pug')
 md5sums=('SKIP')
-
-pkgver() {
-    echo "1.0.r$(git rev-list --count HEAD)$(git rev-parse --short HEAD)"
-}
 
 package() {
     install -D --mode 755 "${srcdir}/index.pug" \
