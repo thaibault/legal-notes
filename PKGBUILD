@@ -11,7 +11,7 @@
 # endregion
 pkgname=legal-notes
 pkgver=VERSION
-pkgrel=2
+pkgrel=3
 pkgdesc='Legal notes for documentation-, home- and websites.'
 arch=('any')
 license=('CC-BY-3.0')
@@ -20,7 +20,7 @@ source=('https://raw.githubusercontent.com/thaibault/legalNotes/master/index.pug
 md5sums=('SKIP')
 
 pkgver() {
-    printf "1.0.$(git rev-list --count HEAD)"
+    echo "1.0.r$(git rev-list --count HEAD)$(git rev-parse --short HEAD)"
 }
 
 package() {
