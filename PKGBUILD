@@ -18,6 +18,7 @@ license=('CC-BY-3.0')
 depends=()
 source=('index.pug')
 md5sums=('SKIP')
+copyToAUR=true
 
 package() {
     install -D --mode 755 "${srcdir}/index.pug" \
