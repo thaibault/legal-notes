@@ -10,17 +10,18 @@
 # 3.0 unported license. see http://creativecommons.org/licenses/by/3.0/deed.de
 # endregion
 pkgname=legal-notes
-pkgver=1.0.0
-pkgrel=1
+pkgver=1.0.2
+pkgrel=5
 pkgdesc='Legal notes for documentation-, home- and websites.'
 arch=('any')
 license=('CC-BY-3.0')
 depends=()
-source=('https://raw.githubusercontent.com/thaibault/legalNotes/master/index.pug')
+source=('index.pug')
 md5sums=('SKIP')
+copyToAUR=true
 
 package() {
-    install -D --mode 755 "${srcdir}/legalNotes.pug" \
+    install -D --mode 755 "${srcdir}/index.pug" \
         "${pkgdir}/usr/lib/legalNotes.pug"
 }
 # region vim modline
