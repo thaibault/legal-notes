@@ -1,12 +1,8 @@
 {
-  "devDependencies": {
-    "html-minifier": "latest",
-    "pug-cli": "latest"
-  },
+  "name": "legal-notes",
+  "version": "1.0.2",
+  "license": "CC-BY-3.0",
   "description": "Legal notes for documentation-, home- and websites.",
-  "files": [
-    "index.html"
-  ],
   "homepage": "http://torben.website/legalNotes",
   "keywords": [
     "legal",
@@ -16,9 +12,10 @@
     "homepage",
     "impressum"
   ],
-  "license": "CC-BY-3.0",
+  "files": [
+    "index.html"
+  ],
   "main": "index.html",
-  "name": "legal-notes",
   "repository": {
     "type": "git",
     "url": "https://github.com/thaibault/legalNotes.git"
@@ -31,5 +28,8 @@
     "update": "npm version patch && npm publish",
     "watch": "pug --watch index.pug"
   },
-  "version": "1.0.2"
+  "devDependencies": {
+    "html-minifier": "latest",
+    "pug-cli": "latest"
+  }
 }
