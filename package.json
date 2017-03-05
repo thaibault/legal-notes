@@ -15,21 +15,18 @@
   "files": [
     "index.html"
   ],
-  "main": "index.html",
+  "main": "index.compiled.html",
   "repository": {
     "type": "git",
     "url": "https://github.com/thaibault/legalNotes.git"
   },
   "scripts": {
-    "build": "pug --no-debug --extension pug.html index.pug && html-minifier --config-file htmlMinifierConfig.json --output index.html index.pug.html",
-    "buildPretty": "pug --pretty index.pug",
-    "clear": "rm *.html || true",
+    "build": "html-minifier --config-file htmlMinifierConfig.json --output index.compiled.html index.html",
+    "clear": "rm *.compiled.html || true",
     "prepublish": "npm run build",
-    "update": "npm version patch && npm publish",
-    "watch": "pug --watch index.pug"
+    "update": "npm version patch && npm publish"
   },
   "devDependencies": {
-    "html-minifier": "latest",
-    "pug-cli": "latest"
+    "html-minifier": "latest"
   }
 }
