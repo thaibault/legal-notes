@@ -10,13 +10,13 @@
 # 3.0 unported license. see http://creativecommons.org/licenses/by/3.0/deed.de
 # endregion
 pkgname=legal-notes
-pkgver=1.0.4
-pkgrel=6
+pkgver=1.0.5
+pkgrel=7
 pkgdesc='Legal notes for documentation-, home- and websites.'
 arch=('any')
 license=('CC-BY-3.0')
 depends=()
-source=('index.pug')
+source=('index.html')
 md5sums=('SKIP')
 copyToAUR=true
 
