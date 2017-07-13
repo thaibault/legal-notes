@@ -23,10 +23,10 @@
   "scripts": {
     "build": "html-minifier --config-file htmlMinifierConfig.json --output index.compiled.html index.html",
     "clear": "rm *.compiled.html || true",
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "update": "npm version patch && npm publish"
   },
   "devDependencies": {
-    "html-minifier": "latest"
+    "html-minifier": "^3.5.2"
   }
 }
