@@ -5,12 +5,13 @@
   "description": "Legal notes for documentation-, home- and websites.",
   "homepage": "http://torben.website/legalNotes",
   "keywords": [
+    "about",
+    "homepage",
+    "impressum",
+    "imprint",
     "legal",
     "notes",
-    "about",
-    "website",
-    "homepage",
-    "impressum"
+    "website"
   ],
   "files": [
     "index.html"
