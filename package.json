@@ -23,6 +23,7 @@
   "scripts": {
     "build": "html-minifier --config-file htmlMinifierConfig.json --output index.compiled.html index.html",
     "clear": "rm *.compiled.html || true",
+    "test": "npm run build && cat index.compiled.html",
     "prepare": "npm run build",
     "update": "npm version patch && npm publish"
   },
