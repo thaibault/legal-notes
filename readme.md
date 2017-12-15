@@ -16,7 +16,7 @@ endregion -->
 [![dependencies](https://img.shields.io/david/thaibault/legal-notes.svg)](https://david-dm.org/thaibault/legal-notes)
 [![devDependencies](https://img.shields.io/david/dev/thaibault/legal-notes.svg)](https://david-dm.org/thaibault/legal-notes?type=dev)
 [![peerDependencies](https://img.shields.io/david/peer/thaibault/legal-notes.svg)](https://david-dm.org/thaibault/legal-notes?type=peer)
-[![documentation-website](https://img.shields.io/website-up-down-green-red/https/www.npmjs.com/package/leagal-notes.svg?label=documentation-website)](https://travis-ci.org/thaibault/legalNotes)
+[![documentation-website](https://img.shields.io/website-up-down-green-red/https/www.npmjs.com/package/leagal-notes.svg?label=documentation-website)](https://www.npmjs.com/package/legal-notes)
 
 <!--|deDE:Einsatz-->
 Use case
