@@ -29,6 +29,6 @@
     "update": "npm version patch && npm publish"
   },
   "devDependencies": {
-    "html-minifier": "^3.5.5"
+    "html-minifier": "^3.5.8"
   }
 }
