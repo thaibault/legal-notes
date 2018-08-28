@@ -3,7 +3,7 @@
   "version": "1.0.15",
   "license": "CC-BY-3.0",
   "description": "Legal notes for documentation-, home- and websites.",
-  "homepage": "http://torben.website/legalNotes",
+  "homepage": "https://torben.website/legalNotes",
   "keywords": [
     "about",
     "homepage",
@@ -29,6 +29,6 @@
     "update": "yarn version --patch && yarn publish"
   },
   "devDependencies": {
-    "html-minifier": "^3.5.16"
+    "html-minifier": "*"
   }
 }
