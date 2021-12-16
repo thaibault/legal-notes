@@ -3,7 +3,7 @@
   "version": "1.0.18",
   "license": "CC-BY-3.0",
   "description": "Legal notes for documentation-, home- and websites.",
-  "homepage": "https://torben.website/legalNotes",
+  "homepage": "https://torben.website/legal-notes",
   "keywords": [
     "about",
     "homepage",
@@ -19,7 +19,7 @@
   "main": "index.compiled.html",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thaibault/legalNotes.git"
+    "url": "https://github.com/thaibault/legal-notes.git"
   },
   "scripts": {
     "build": "html-minifier --config-file htmlMinifierConfig.json --output index.compiled.html index.html",
