@@ -13,8 +13,8 @@ endregion -->
 Project status
 --------------
 
-[![npm version](https://badge.fury.io/js/legal-notes.svg)](https://www.npmjs.com/package/legal-notes)
-[![downloads](https://img.shields.io/npm/dy/legal-notes.svg)](https://www.npmjs.com/package/legal-notes)
+[![npm](https://img.shields.io/npm/v/legal-notes?color=%23d55e5d&label=npm%20package%20version&logoColor=%23d55e5d&style=for-the-badge)](https://www.npmjs.com/package/legal-notes)
+[![npm downloads](https://img.shields.io/npm/dy/legal-notes.svg?style=for-the-badge)](https://www.npmjs.com/package/legal-notes)
 
 <!--|deDE:Einsatz-->
 Use case
