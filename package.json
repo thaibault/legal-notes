@@ -27,7 +27,7 @@
     "test": "yarn build && cat index.compiled.html",
     "postversion": "git push --tags && git push",
     "prepare": "yarn build",
-    "update": "yarn version --patch"
+    "update": "yarn version patch && yarn npm publish"
   },
   "devDependencies": {
     "html-minifier": "*"
