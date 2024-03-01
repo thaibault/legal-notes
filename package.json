@@ -23,7 +23,7 @@
   },
   "scripts": {
     "build": "html-minifier --config-file htmlMinifierConfig.json --output index.compiled.html index.html",
-    "clear": "rimraf --glob '*.compiled.html' || true",
+    "clear": "rimraf --glob '*.compiled.html'",
     "test": "yarn build && cat index.compiled.html",
     "postversion": "git push --tags && git push",
     "prepare": "yarn build",
