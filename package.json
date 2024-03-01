@@ -31,5 +31,10 @@
   },
   "devDependencies": {
     "html-minifier": "*"
+  },
+  "engines": {
+    "node": ">=20",
+    "npm": ">=10",
+    "yarn": ">=4"
   }
 }
