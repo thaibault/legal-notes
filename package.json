@@ -1,6 +1,6 @@
 {
   "name": "legal-notes",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "license": "CC-BY-3.0",
   "description": "Legal notes for documentation-, home- and websites.",
   "homepage": "https://torben.website/legal-notes",
@@ -23,7 +23,7 @@
   },
   "scripts": {
     "build": "html-minifier --config-file htmlMinifierConfig.json --output index.compiled.html index.html",
-    "clear": "rimraf --glob '*.compiled.html' || true",
+    "clear": "rimraf --glob '*.compiled.html'",
     "test": "yarn build && cat index.compiled.html",
     "postversion": "git push --tags && git push",
     "prepare": "yarn build",
