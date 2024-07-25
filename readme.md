@@ -21,8 +21,3 @@ Use case
 --------
 
 Generic legal-notes for all documentation pages and home page.
-
-<!-- region modline
-vim: set tabstop=4 shiftwidth=4 expandtab:
-vim: foldmethod=marker foldmarker=region,endregion:
-endregion -->

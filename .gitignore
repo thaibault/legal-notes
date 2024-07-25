@@ -109,12 +109,15 @@ nosetests.xml
 
 # JetBrain's idea, PHPStorm and other IDE Files
 .externalToolBuilders
-.idea
+
+.idea/tasks.xml
+.idea/workspace.xml
+.idea/**/*.iws
+
 .project
 .pydevproject
 .settings
 *.iml
-**/.idea
 
 # Gedit autosave backups.
 *~
@@ -158,6 +161,9 @@ types/*.d.ts
 @types/*.d.ts
 typings/*.d.ts
 !declarations.d.ts
+
+# MAC OS
+.DS_Store
 
 # Python
 __pycache__
