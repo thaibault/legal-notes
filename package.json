@@ -25,8 +25,7 @@
     "build": "html-minifier --config-file htmlMinifierConfig.json --output index.compiled.html index.html",
     "clear": "rimraf --glob '*.compiled.html'",
     "test": "yarn build && cat index.compiled.html",
-    "prepare": "yarn build",
-    "update": "yarn version patch && yarn npm publish"
+    "prepare": "yarn build"
   },
   "devDependencies": {
     "html-minifier": "^4.0.0",
