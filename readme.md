@@ -16,6 +16,8 @@ Project status
 [![npm](https://img.shields.io/npm/v/legal-notes?color=%23d55e5d&label=npm%20package%20version&logoColor=%23d55e5d&style=for-the-badge)](https://www.npmjs.com/package/legal-notes)
 [![npm downloads](https://img.shields.io/npm/dy/legal-notes.svg?style=for-the-badge)](https://www.npmjs.com/package/legal-notes)
 
+[![build push package](https://img.shields.io/github/actions/workflow/status/thaibault/legal-notes/build-package-and-push.yaml?label=build%20push%20package&style=for-the-badge)](https://github.com/thaibault/legal-notes/actions/workflows/build-package-and-push.yaml)
+
 <!--|deDE:Einsatz-->
 Use case
 --------
