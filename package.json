@@ -1,9 +1,7 @@
 {
   "name": "legal-notes",
   "version": "1.0.29-1",
-  "license": "CC-BY-3.0",
   "description": "Legal notes for documentation-, home- and websites.",
-  "homepage": "https://torben.website/legal-notes",
   "keywords": [
     "about",
     "homepage",
@@ -13,19 +11,22 @@
     "notes",
     "website"
   ],
-  "files": [
-    "index.html"
-  ],
-  "main": "index.compiled.html",
+  "homepage": "https://torben.website/legal-notes",
+  "license": "CC-BY-3.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/thaibault/legal-notes.git"
   },
+  "main": "index.compiled.html",
+  "type": "module",
+  "files": [
+    "index.html"
+  ],
   "scripts": {
     "build": "html-minifier --config-file htmlMinifierConfig.json --output index.compiled.html index.html",
     "clear": "rimraf --glob '*.compiled.html'",
-    "test": "yarn build && cat index.compiled.html",
-    "prepare": "yarn build"
+    "prepare": "yarn build",
+    "test": "yarn build && cat index.compiled.html"
   },
   "devDependencies": {
     "html-minifier": "^4.0.0",
