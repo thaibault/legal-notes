@@ -10,23 +10,26 @@
 # 3.0 unported license. See https://creativecommons.org/licenses/by/3.0/deed.de
 # endregion
 pkgname=legal-notes
-pkgver=1.0.9
-pkgrel=9
+pkgver=1.0.31
+pkgrel=1
 pkgdesc='Legal notes for documentation-, home- and websites.'
 arch=(any)
-url=https://github.com/thaibault/legalNotes
+url=https://github.com/thaibault/legal-notes
 license=(CC-BY-3.0)
 depends=()
-source=(index.html)
-md5sums=(SKIP)
+makedepends=(npm)
+source=(htmlMinifierConfig.json index.html)
+md5sums=(SKIP SKIP)
 copy_to_aur=true
 
+build() {
+    npx --yes html-minifier@4 \
+        --config-file "${srcdir}/htmlMinifierConfig.json" \
+        --output "${srcdir}/index.compiled.html" \
+        "${srcdir}/index.html"
+}
+
 package() {
-    set +x
-    pushd srcdir
-    npm run build
-    popd
-    install -D --mode 755 "${srcdir}/index.compiled.html" \
+    install -D --mode 644 "${srcdir}/index.compiled.html" \
         "${pkgdir}/usr/lib/legalNotes.html"
-    set -x
 }
