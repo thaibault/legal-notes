@@ -51,8 +51,8 @@ Sections included:
 
 - Disclaimer: liability for content and links.<!--deDE:Haftungsausschluss: Haftung für Inhalte und Links.--><!--frFR:Désistement: responsabilité quant au contenu et aux liens.-->
 - Copyright of content and artwork.<!--deDE:Urheberrecht an Inhalten und Grafiken.--><!--frFR:Droit d'auteur sur les contenus et les illustrations.-->
-- Privacy policy including the content delivery network (Cloudflare) and
-  Google Analytics.<!--deDE:Datenschutzerklärung inklusive Content-Delivery-Network (Cloudflare) und Google Analytics.--><!--frFR:Politique de confidentialité, y compris le réseau de diffusion de contenu (Cloudflare) et Google Analytics.-->
+- Privacy policy including the content delivery network (Cloudflare) and a
+  possible use of Google Analytics.<!--deDE:Datenschutzerklärung inklusive Content-Delivery-Network (Cloudflare) und einer möglichen Nutzung von Google Analytics.--><!--frFR:Politique de confidentialité, y compris le réseau de diffusion de contenu (Cloudflare) et une éventuelle utilisation de Google Analytics.-->
 
 All texts are available in American English, German and French. The
 translations are embedded as HTML comments and can be switched at runtime via
