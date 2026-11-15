@@ -1,6 +1,6 @@
 {
   "name": "legal-notes",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "description": "Legal notes for documentation-, home- and websites.",
   "keywords": [
     "about",
@@ -15,7 +15,7 @@
   "license": "CC-BY-4.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thaibault/legal-notes.git"
+    "url": "git+https://github.com/thaibault/legal-notes.git"
   },
   "type": "module",
   "main": "index.compiled.html",
