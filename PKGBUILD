@@ -20,7 +20,7 @@ license=(CC-BY-4.0)
 depends=()
 makedepends=(npm)
 source=(htmlMinifierConfig.json index.html)
-md5sums=(SKIP SKIP)
+sha256sums=(SKIP SKIP)
 copy_to_aur=true
 
 build() {
