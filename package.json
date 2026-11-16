@@ -29,7 +29,7 @@
     "test": "yarn build && cat index.compiled.html"
   },
   "devDependencies": {
-    "html-minifier": "^5.1.0",
+    "html-minifier": "^5.2.0",
     "rimraf": "^6.1.4"
   },
   "engines": {
