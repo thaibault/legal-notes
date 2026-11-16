@@ -11,7 +11,7 @@
 # See https://creativecommons.org/licenses/by/4.0/deed.de
 # endregion
 pkgname=legal-notes
-pkgver=1.0.33
+pkgver=1.0.34
 pkgrel=1
 pkgdesc='Legal notes for documentation-, home- and websites.'
 arch=(any)
