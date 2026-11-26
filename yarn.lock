@@ -56,7 +56,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^8.15.0":
+"acorn@npm:^8.15.0, acorn@npm:^8.19.0":
   version: 8.19.0
   resolution: "acorn@npm:8.19.0"
   bin:
@@ -235,15 +235,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-minifier@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "html-minifier@npm:5.2.0"
+"html-minifier@npm:^5.4.1":
+  version: 5.4.1
+  resolution: "html-minifier@npm:5.4.1"
   dependencies:
+    acorn: "npm:^8.19.0"
     commander: "npm:^15.1.0"
     entities: "npm:^9.0.0"
     lightningcss: "npm:^1.33.0"
     svgo: "npm:^4.1.0"
-    terser: "npm:^5.51.2"
+    terser: "npm:^5.51.4"
   peerDependencies:
     "@swc/core": ^1.15.7
   peerDependenciesMeta:
@@ -252,7 +253,7 @@ __metadata:
   bin:
     hm: cli.js
     html-minifier: cli.js
-  checksum: 10c0/db24402765bedc89894dffd9359c3341059e846766d5fdcf4e0dded453de8078248a0154507a310cd05955170f4ac7aa317527166aa1ce11875d82931cdab1f2
+  checksum: 10c0/a9de73e88335a2dadf80dfd651c79b2c516691687018fe3a5de6852e0b0a6f57e8842f590f692641a8a8162d8a30e2026f5cd7b60a4affb7df8f2f07e3478df5
   languageName: node
   linkType: hard
 
@@ -260,7 +261,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "legal-notes@workspace:."
   dependencies:
-    html-minifier: "npm:^5.2.0"
+    html-minifier: "npm:^5.4.1"
     rimraf: "npm:^6.1.4"
   languageName: unknown
   linkType: soft
@@ -523,9 +524,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser@npm:^5.51.2":
-  version: 5.51.2
-  resolution: "terser@npm:5.51.2"
+"terser@npm:^5.51.4":
+  version: 5.51.4
+  resolution: "terser@npm:5.51.4"
   dependencies:
     "@jridgewell/source-map": "npm:^0.3.3"
     acorn: "npm:^8.15.0"
@@ -533,6 +534,6 @@ __metadata:
     source-map-support: "npm:~0.5.20"
   bin:
     terser: bin/terser
-  checksum: 10c0/e6dd3d9152ad51b5a990e55bf0647701278970193d2ce2359a401623e65827a27a1803f5d58593a1f0b5e10ff3fa316a8d014d4f88a28d98ea94fb69359aeae5
+  checksum: 10c0/eae8fe3d3c7f3f214df468141ce85f6e9be99d34ce21500e335bb48e432f323b15058be9142f04f030c749e6f3db159d6c05e060f88a164e057887716df47785
   languageName: node
   linkType: hard
